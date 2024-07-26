@@ -99,7 +99,7 @@
             can use my coding knowledge to create tools that make the world more
             accessible.
           </p>
-          <button class="contactMe">
+          <button href="#contactId" class="contactMe">
             Contact Me <i class="uil uil-message"></i>
           </button>
         </div>
@@ -129,7 +129,7 @@
             </div>
             <!-- END OF frontendImgRow ROW -->
             <div class="frontendTitleCol col">
-              <h4>Frontend</h4>
+              <h2>Frontend</h2>
             </div>
             <!--END OF frontendTitleCol COL-->
           </div>
@@ -137,11 +137,57 @@
           <div class="frontendListRow row">
             <div class="space col"></div>
             <div class="frontendList col">
-              <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>BOOTSTRAP</li>
-              </ul>
+              <div class="skillsData">
+                <div class="skillsTitle">
+                  <h4 class="skillsName">HTML</h4>
+                  <span class="skillsNumber">30%</span>
+                </div>
+                <!-- END skillsTitle DIV  -->
+                <div class="skillsBar">
+                  <span class="skillsPercentage skillsPercentHtml"></span>
+                </div>
+                <!-- END OF SKILLS BAR DIV -->
+              </div>
+              <!-- END skillsData COL   -->
+
+              <div class="skillsData">
+                <div class="skillsTitle">
+                  <h4 class="skillsName">CSS</h4>
+                  <span class="skillsNumber">40%</span>
+                </div>
+                <!-- END skillsTitle DIV  -->
+                <div class="skillsBar">
+                  <span class="skillsPercentage skillsPercentCss"></span>
+                </div>
+                <!-- END OF SKILLS BAR DIV -->
+              </div>
+              <!-- END skillsData COL   -->
+
+              <div class="skillsData">
+                <div class="skillsTitle">
+                  <h4 class="skillsName">BOOTSTRAP</h4>
+                  <span class="skillsNumber">20%</span>
+                </div>
+                <!-- END skillsTitle DIV  -->
+                <div class="skillsBar">
+                  <span class="skillsPercentage skillsPercentBs"></span>
+                </div>
+                <!-- END OF SKILLS BAR DIV -->
+              </div>
+              <!-- END skillsData COL   -->
+
+              <div class="skillsData">
+                <div class="skillsTitle">
+                  <h4 class="skillsName">JAVASCRIPT</h4>
+                  <span class="skillsNumber">10%</span>
+                </div>
+                <!-- END skillsTitle DIV  -->
+                <div class="skillsBar">
+                  <span class="skillsPercentage skillsPercentJs"></span>
+                </div>
+                <!-- END OF SKILLS BAR DIV -->
+              </div>
+              <!-- END skillsData COL   -->
             </div>
             <!--END OF frontendList COL-->
           </div>
@@ -160,7 +206,7 @@
             </div>
             <!-- END OF frontendImgRow ROW -->
             <div class="frontendTitleCol col">
-              <h4>Backend</h4>
+              <h2>Backend</h2>
             </div>
             <!--END OF frontendTitleCol COL-->
           </div>
@@ -168,9 +214,18 @@
           <div class="backendListRow row">
             <div class="space col"></div>
             <div class="backendList col">
-              <ul>
-                <li>C#</li>
-              </ul>
+              <div class="skillsData">
+                <div class="skillsTitle">
+                  <h4 class="skillsName">C#</h4>
+                  <span class="skillsNumber">70%</span>
+                </div>
+                <!-- END skillsTitle DIV  -->
+                <div class="skillsBar">
+                  <span class="skillsPercentage skillsPercentC"></span>
+                </div>
+                <!-- END OF SKILLS BAR DIV -->
+              </div>
+              <!-- END skillsData COL   -->
             </div>
             <!--END OF backendList COL-->
           </div>
@@ -332,7 +387,7 @@
           <div class="projectBox">
             <img
               class="image-fluid"
-              src="https://placehold.co/200x200.png"
+              src="./media/detroix.png"
               alt="..."
               class="img-thumbnail"
             />
@@ -340,7 +395,7 @@
               href="https://nicolem-torres.github.io/Airbox-Project/"
               target="_blank"
             >
-              <h4>AirBox Project</h4></a
+              <h4>Detroix Project</h4></a
             >
             <a
               href="https://github.com/NicoleM-Torres/Airbox-Project.git"
@@ -360,13 +415,64 @@
       <div class="contactRow row">
         <div class="spaceHolder col"></div>
         <div class="contactInfo col">
-          <h3>Contact Information</h3>
-          <p>nicole.torres@mscoding.org</p>
+          <form
+            action="https://api.web3forms.com/submit"
+            method="POST"
+            class="contactInfoCol col"
+          >
+            <div class="contactFirstName">
+              <input
+                type="hidden"
+                name="access_key"
+                value="03e2252d-c616-48a4-82d2-76af86ef840f"
+              />
+              <div class="contactTitle row">
+                <h2>Get in touch!</h2>
+                <hr />
+              </div>
+              <!-- END contactLeftTitle COL -->
+
+              <input
+                type="text"
+                name="name"
+                placeholder="Name"
+                class="contactInput"
+              />
+            </div>
+            <div class="contactEmail">
+              <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                class="contactInput"
+              />
+            </div>
+            <div class="contactMessage">
+              <textarea
+                name="message"
+                placeholder="Message"
+                class="contactInput"
+              ></textarea>
+            </div>
+            <div class="submitContactButton">
+              <button type="submit">
+                Submit <i class="uil uil-envelope-upload-alt"></i>
+              </button>
+            </div>
+          </form>
+          <!-- END contactLeft COL  -->
+          <!-- <form action="" class="contactRight col">
+
+            <i class="uil uil-fast-mail"></i>
+          </form> -->
+          <!-- END contactRight COL -->
         </div>
         <!--contactInfo COL-->
+
         <!--  -->
         <div class="location col">
-          <p>I'm located:</p>
+          <h2>I'm located:</h2>
+          <hr />
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3444191.946501601!2d-92.51847341190805!3d32.54033424886783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x862832e4e44ad419%3A0x620d177fe9dca6da!2sMississippi!5e0!3m2!1sen!2sus!4v1721244062200!5m2!1sen!2sus"
             width="200"
@@ -398,7 +504,7 @@
         <div class="spaceHolder col"></div>
         <div class="socialMedia col-6">
           <div class="socialMediaRow row">
-            <div class="linkedin col-2" style="width: 74px">
+            <div class="linkedin col-2" style="width: 50px">
               <a
                 href="https://www.linkedin.com/in/nicole-torresm/"
                 target="_blank"
@@ -406,13 +512,13 @@
               /></a>
             </div>
             <!-- END OF linkedin DIV -->
-            <div class="github col-2" style="width: 74px">
+            <div class="github col-2" style="width: 50px">
               <a href="https://github.com/NicoleM-Torres" target="_blank"
                 ><img src="./media/github.png" alt=""
               /></a>
             </div>
             <!-- END OF github DIV -->
-            <div class="sheCodes col-2">
+            <div class="sheCodes col-2" style="width: 50px">
               <a
                 href="https://www.shecodes.io/graduates/18360-nicole-torres"
                 target="_blank"
