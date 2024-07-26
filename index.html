@@ -13,7 +13,7 @@
       href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
     />
     <!-- ANIMATION STYLESHEET -->
-         <link
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
@@ -39,8 +39,10 @@
         <div class="spaceHolder col"></div>
         <!-- END OF name COL-->
 
-        <div class="projectsLink col">
-          <a href="#projectsId"><p>PROJECTS</p></a>
+        <div class="projectsLink col" style="padding-right: 100px">
+          <a href="#projectsId"
+            ><p><i class="uil uil-books"></i>PROJECTS</p></a
+          >
         </div>
         <!-- END OF contact COL-->
       </div>
@@ -87,7 +89,7 @@
         </div>
         <!-- END OF profileImg COL -->
 
-        <div class="codingExperience col col-lg-4">
+        <div class="codingExperience col-sm-12 col-md-4">
           <h1>Nicole Torres Mendez</h1>
           <p>
             I began my journey as a coder with Mississippi Coding Academies in
@@ -97,7 +99,9 @@
             can use my coding knowledge to create tools that make the world more
             accessible.
           </p>
-          <button class="contactMe">Contact Me</button>
+          <button class="contactMe">
+            Contact Me <i class="uil uil-message"></i>
+          </button>
         </div>
         <div class="spaceHolder col-2"></div>
         <!-- END OF SPACEHOLDER COL  -->
@@ -179,76 +183,81 @@
     </div>
     <!-- END OF skills CONTAINER -->
 
-    <div class="skills container-fluid">
-      <div class="skillsRow row">
-        <div class="skillsRowHeader row">
+    <div class="certifications container-fluid">
+      <div class="certificationsRow row">
+        <div class="certificationsRowHeader row">
           <h1>Certifications</h1>
           <p>My education</p>
         </div>
-        <!-- ENF OF skillsRowHeader row-->
+        <!-- ENF OF certificationsRowHeader row-->
         <div class="spaceHolder col-2"></div>
-        <div class="frontendSkills col col-lg-4">
+        <div class="sheCodesSkills col col-lg-4">
           <div class="header row">
-            <div class="frontendImgCol col">
+            <div class="sheCodesImgCol col">
               <img
-                class="frontendImg img-fluid"
+                class="sheCodesImg img-fluid"
                 src="./media/shecodeslogo2.png"
                 alt=""
               />
             </div>
-            <!-- END OF frontendImgRow ROW -->
-            <div class="frontendTitleCol col">
+            <!-- END OF sheCodesImgRow ROW -->
+            <!-- <div class="sheCodesTitleCol col">
               <h4>SheCodes Basic</h4>
-            </div>
-            <!--END OF frontendTitleCol COL-->
+            </div> -->
+            <!--END OF sheCodesTitleCol COL-->
           </div>
           <!--END OF header ROW -->
-          <div class="frontendListRow row">
-            <div class="space col"></div>
-            <div class="frontendList col">
-              <ul>
-                <li>Frontend</li>
-              </ul>
+          <div class="sheCodesListRow row">
+            <div class="space col-4"></div>
+            <div class="sheCodesInfo col">
+              <h4>Frontend</h4>
+
               <p>Basics of HTML, CSS, and JavaScript</p>
             </div>
-            <!--END OF frontendList COL-->
+            <!--END OF sheCodesList COL-->
           </div>
-          <!--END OF frontendListRow ROW-->
+          <!--END OF sheCodesListRow ROW-->
         </div>
-        <!-- END OF frontendSkills COL -->
+        <!-- END OF sheCodesSkills COL -->
 
-        <div class="backendSkills col col-lg-4">
+        <div class="mscaSkills col col-lg-4">
           <div class="header row">
-            <div class="backendImgCol col">
-              <img class="backendImg img-fluid" src="./media/msca.png" alt="" />
+            <div class="mscaImgCol col">
+              <img class="mscaImg img-fluid" src="./media/msca.png" alt="" />
             </div>
-            <!-- END OF frontendImgRow ROW -->
-            <div class="frontendTitleCol col">
+            <!-- END OF mscaImgRow ROW -->
+            <!-- <div class="mscaTitleCol col">
               <h4>Mississippi Coding Academies</h4>
-            </div>
-            <!--END OF frontendTitleCol COL-->
+            </div> -->
+            <!--END OF mscaTitleCol COL-->
           </div>
           <!--END OF header ROW -->
 
-          <div class="backendListRow row">
-            <div class="space col"></div>
-            <div class="backendList col">
-              <ul>
-                <li>C#</li>
-              </ul>
+          <div class="mscaListRow row">
+            <div class="space col-4"></div>
+            <div class="mscaInfo col">
+              <h4>C#</h4>
+
               <p>Three month work-study program focusing on C#.</p>
             </div>
-            <!--END OF backendList COL-->
+            <!--END OF mscaList COL-->
           </div>
-          <!--END OF backendListRow ROW-->
+          <!--END OF mscaListRow ROW-->
 
           <div class="spaceHolder col-2"></div>
         </div>
       </div>
-      <!-- END OF skillsRow ROW -->
+      <!-- END OF certificationsRow ROW -->
     </div>
-    <!-- END OF skills CONTAINER -->
+    <!-- END OF certifications CONTAINER -->
+
     <div class="projects container-fluid" id="projectsId">
+      <div class="projectsHeader row">
+        <h1>Projects</h1>
+        <p>Some of my projects</p>
+      </div>
+      <!-- END projectHeader ROW -->
+
       <div class="projectsRow row">
         <div class="projectOne col">
           <div class="projectBox">
@@ -389,7 +398,7 @@
         <div class="spaceHolder col"></div>
         <div class="socialMedia col-6">
           <div class="socialMediaRow row">
-            <div class="linkedin col-2" style=" width: 74px;">
+            <div class="linkedin col-2" style="width: 74px">
               <a
                 href="https://www.linkedin.com/in/nicole-torresm/"
                 target="_blank"
@@ -397,7 +406,7 @@
               /></a>
             </div>
             <!-- END OF linkedin DIV -->
-            <div class="github col-2" style=" width: 74px;">
+            <div class="github col-2" style="width: 74px">
               <a href="https://github.com/NicoleM-Torres" target="_blank"
                 ><img src="./media/github.png" alt=""
               /></a>
