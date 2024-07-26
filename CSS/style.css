@@ -258,11 +258,6 @@ button:hover {
   /* align-content: center; */
 }
 
-.backendList,
-.frontendList {
-  /* text-align: -webkit-center; */
-}
-
 /* .frontendList ul{
     list-style-image: url('/media/frontend.png');
     width: 8px;
@@ -320,6 +315,22 @@ li {
 .skillsPercentC {
   width: 70%;
 }
+
+@media (max-width: 991px) {
+  .space {
+    display: none;
+  }
+
+  .skillsBar {
+    width: 200px;
+  }
+
+  .backendList,
+  .frontendList {
+    padding-left: 200px;
+  }
+}
+
 /* #endregion */
 
 /* #region PROJECTS */
@@ -375,7 +386,6 @@ a:hover {
 /* #region CERTIFICATIONS */
 .certifications {
   font-family: "Poppins", sans-serif;
-
   background-color: #eeedeb;
   padding-top: 100px;
   padding-bottom: 100px;
