@@ -235,10 +235,9 @@ button:hover {
 /* #region Skills */
 .skills {
   font-family: "Poppins", sans-serif;
-
   background-color: #eeedeb;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   padding-bottom: 15px;
 }
 
@@ -327,10 +326,10 @@ li {
 .projects {
   font-family: "Poppins", sans-serif;
 
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: #eeedeb;
   color: #2f3645;
   text-align: -webkit-center;
@@ -378,8 +377,8 @@ a:hover {
   font-family: "Poppins", sans-serif;
 
   background-color: #eeedeb;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   padding-bottom: 15px;
 }
 
